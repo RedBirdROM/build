@@ -834,7 +834,7 @@ function lunch()
 
     if ! check_product $product
     then
-        # if we can't find a product, try to grab it off the DerpFest GitHub
+        # if we can't find a product, try to grab it off the RedBirdROM GitHub
         T=$(gettop)
         cd $T > /dev/null
         vendor/redbird/build/tools/roomservice.py $product

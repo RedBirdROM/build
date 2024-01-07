@@ -36,7 +36,7 @@ PRODUCT_PACKAGES += \
     Browser2
 endif
 
-ifeq ($(DERP_BUILD),)
+ifeq ($(REDBIRD_BUILD),)
 PRODUCT_PACKAGES += \
     Camera2 \
     LatinIME
